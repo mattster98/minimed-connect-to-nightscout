@@ -33,7 +33,7 @@
     "mocha": "^9.2.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@mattster98:registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "medtronic",
