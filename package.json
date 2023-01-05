@@ -12,7 +12,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "node run.js",
+    "start": "node inspect run.js",
     "test": "make test"
   },
   "license": "MIT",
