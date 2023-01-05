@@ -32,6 +32,9 @@
     "expect.js": "^0.3.1",
     "mocha": "^9.2.0"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "keywords": [
     "medtronic",
     "minimed",
@@ -39,3 +42,4 @@
     "nightscout"
   ]
 }
+
