@@ -37,6 +37,7 @@ Another turnkey installation option is to run this on a Heroku worker dyno. You 
 * `CARELINK_PASSWORD` - your password for [CareLink][carelink]
 * `API_SECRET` - the value you use for `API_SECRET` on your Nightscout website
 * `WEBSITE_HOSTNAME` - the hostname for your Nightscout instance, which looks like `your.host.com`. If you are running this script in the same Azure environment as Nightscout, there is no need to set this, as it will [already be set by Azure][azure-environment]. If you set `NS` (see below), you do not need to set this.
+* `PATIENT_ID` - the carelink username of the person you are getting data from
 
 ### Optional environment variables
 
