@@ -246,11 +246,11 @@ var Client = exports.Client = function (options) {
             dataRetrievalUrl = resp.data.blePereodicDataEndpoint;
           }
           if(dataRetrievalUrl) {
-                logger.log('GET data (as carepartner) ' + dataRetrievalUrl);
+                logger.log('GET data (as carepartner) ' + dataRetrievalUrl + ' ' + options.patientid);
                 var body = {
                     username: options.username,
                     role: "carepartner",
-                    patientId: options.patientid
+                    patientId: "sincolestr"
                 };
                 return await axiosInstance.post(dataRetrievalUrl,body,{
                     
