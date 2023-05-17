@@ -250,7 +250,7 @@ var Client = exports.Client = function (options) {
                 var body = {
                     username: options.username,
                     role: "carepartner",
-                    patientId: "sincolestr"
+                    patientId: process.env['MMCONNECT_PATIENT_ID']
                 };
                 return await axiosInstance.post(dataRetrievalUrl,body,{
                     
